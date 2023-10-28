@@ -1,0 +1,69 @@
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #bae6fd;
+}
+
+.postsDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5rem;
+    padding: 3rem;
+}
+
+.postsCard {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 27rem;
+    height: 22rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0.4rem;
+    gap: 1rem;
+    background-color: white;
+}
+
+.action {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    color: red;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.content h2 {
+    font-weight: 700;
+}
+
+.content h2::first-letter {
+    text-transform: capitalize;
+}
+
+.content p {
+    font-weight: 500;
+}
+.content p::first-letter {
+    text-transform: capitalize;
+}
+
+.paginationDiv {
+    color: #043543;
+    font-size: 1.2rem;
+    gap: 1rem;
+}
+
+/* @media only screen and (max-width: 1458px) {
+    grid-template-columns: 1fr 1fr;
+} */
